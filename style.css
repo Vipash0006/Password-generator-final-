@@ -1,0 +1,43 @@
+.gradient-bg {
+    background-image: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.error-message {
+    color: #ef4444; /* Red 500 */
+}
+
+input[type="checkbox"].rounded:checked {
+    background-color: #3b82f6; /* Blue 500 */
+}
+
+input[type="checkbox"].rounded:checked + span {
+    color: #000000;
+}
+
+input[type="number"].border:focus {
+    border-color: #3b82f6; /* Blue 500 */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+input[type="text"].border:focus,
+input[type="text"].border:hover {
+    border-color: #3b82f6; /* Blue 500 */
+}
+
+input[type="text"].border:focus {
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.max-w-md{
+    background: linear-gradient(120deg, #35a6bf 0%, #4c62bd 100%)
+}
